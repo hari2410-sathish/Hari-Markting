@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our products at MyWebsite">
+    <title>RENO LAB | Products</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">RENO<span>LAB</span></a>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li class="dropdown">
+                    <a href="index.html#services">Services <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-content">
+                        <li><a href="index.html#web-design">Web Design</a></li>
+                        <li><a href="index.html#development">Development</a></li>
+                        <li><a href="index.html#seo">SEO</a></li>
+                        <li><a href="index.html#consulting">Consulting</a></li>
+                    </ul>
+                </li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="products-main">
+         <section class="products-hero">
+    <video autoplay muted loop playsinline class="background-video">
+      <source src="../video/mixkit-animation-of-futuristic-devices-99786-hd-ready.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="container">
+      <h1>Our Products</h1>
+      <p>High-quality solutions for your business needs</p>
+    </div>
+  </section>
+    </section>
+
+      <section class="products-section">
+    <div class="container">
+        <h2 class="section-title">Our Pharmaceutical Products</h2>
+        <p class="section-subtitle">High-quality medicines for better healthcare solutions</p>
+        
+        <div class="product-filters">
+            <button class="filter-btn active" data-filter="all">All Products</button>
+            <button class="filter-btn" data-filter="tear-substitutes">Tear Substitutes</button>
+            <button class="filter-btn" data-filter="anti-infective">Anti-infective/Combinations</button>
+            <button class="filter-btn" data-filter="anti-inflammatory">Anti-inflammatory</button>
+            <button class="filter-btn" data-filter="antioxidant">Antioxidant</button>
+            <button class="filter-btn" data-filter="anti-allergy">Anti-allergy</button>
+            <button class="filter-btn" data-filter="ointment">Ointment</button>
+            <button class="filter-btn" data-filter="surgicals">Surgicals</button>
+        </div>
+
+        <div class="products-grid">
+            <!-- Tear Substitutes (5 products) -->
+            <div class="product-card" data-category="tear-substitutes">
+                <div class="product-image">
+                    <img src="images/tear-substitute1.jpg" alt="Tear Substitute Plus">
+                    <div class="product-badge">BEST SELLER</div>
+                </div>
+                <div class="product-content">
+                    <h3>Renofresh</h3>
+                    <p>Sodium Carboxymethyl Cellulose.</p>
+                    <div class="product-footer">
+                        <span class="price">$12.99</span>
+                        <button class="btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-card" data-category="tear-substitutes">
+                <div class="product-image">
+                    <img src="images/tear-substitute2.jpg" alt="Moisture Eyes">
+                </div>
+                <div class="product-content">
+                    <h3>Renofresh</h3>
+                    <p>Sodium Carboxymethyl Ceellulose</p>
+                    <div class="product-footer">
+                        <span class="price">$9.99</span>
+                        <button class="btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-card" data-category="tear-substitutes">
+                <div class="product-image">
+                    <img src="images/tear-substitute3.jpg" alt="HydraTears">
+                    <div class="product-badge">NEW</div>
+                </div>
+                <div class="product-content">
+                    <h3>Rehylo</h3>
+                    <p>Sodium Hyaluronate.</p>
+                    <div class="product-footer">
+                        <span class="price">$15.50</span>
+                        <button class="btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-card" data-category="tear-substitutes">
+                <div class="product-image">
+                    <img src="images/tear-substitute4.jpg" alt="Refresh Tears">
+                </div>
+                <div class="product-content">
+                    <h3>Rehylo Gel</h3>
+                    <p>Sodium Hyaluronate.</p>
+                    <div class="product-footer">
+                        <span class="price">$8.75</span>
+                        <button class="btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-card" data-category="tear-substitutes">
+                <div class="product-image">
+                    <img src="images/tear-substitute5.jpg" alt="TearGel Night">
+                </div>
+                <div class="product-content">
+                    <h3>Remethyl</h3>
+                    <p>Hypermellose Gel HPMC.</p>
+                    <div class="product-footer">
+                        <span class="price">$13.25</span>
+                        <button class="btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Anti-infective/Combinations (2 products) -->
+            <div class="product-card" data-category="anti-infective">
+                <div class="product-image">
+                    <img src="images/anti-infective1.jpg" alt="OcuFlox">
+                </div>
+                <div class="product-content">
+                    <h3>Remox</h3>
+                    <p>Moxifloxacin Opthalmic Solution.</p>
+                    <div class="product-footer">
+                        <span class="price">$24.99</span>
+                        <button class="btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-card" data-category="anti-infective">
+                <div class="product-image">
+                    <img src="images/anti-infective2.jpg" alt="TobraDex">
+                    <div class="product-badge">COMBO</div>
+                </div>
+                <div class="product-content">
+                    <h3>Remox-D</h3>
+                    <p>Moxifloxacin Dexamethasone</p>
+                    <div class="product-footer">
+                        <span class="price">$29.99</span>
+                        <button class="btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Anti-inflammatory (1 product) -->
+            <div class="product-card" data-category="anti-inflammatory">
+                <div class="product-image">
+                    <img src="images/anti-inflammatory.jpg" alt="InflamEase">
+                </div>
+                <div class="product-content">
+                    <h3>Nepacare</h3>
+                    <p>Nepafenac Opthalmic Suspension</p>
+                    <div class="product-footer">
+                        <span class="price">$32.50</span>
+                        <button class="btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Antioxidant (2 products) -->
+            <div class="product-card" data-category="antioxidant">
+                <div class="product-image">
+                    <img src="images/antioxidant1.jpg" alt="OcuVite Plus">
+                </div>
+                <div class="product-content">
+                    <h3>Re-site</h3>
+                    <p>Anti-Oxidant</p>
+                    <div class="product-footer">
+                        <span class="price">$19.99</span>
+                        <button class="btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-card" data-category="antioxidant">
+                <div class="product-image">
+                    <img src="images/antioxidant2.jpg" alt="MacuHealth">
+                </div>
+                <div class="product-content">
+                    <h3>Re-Site Plus</h3>
+                    <p>Anti-Oxidant</p>
+                    <div class="product-footer">
+                        <span class="price">$27.50</span>
+                        <button class="btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Anti-allergy (1 product) -->
+            <div class="product-card" data-category="anti-allergy">
+                <div class="product-image">
+                    <img src="images/anti-allergy.jpg" alt="AllerRelief">
+                </div>
+                <div class="product-content">
+                    <h3>Repat</h3>
+                    <p>Olopatadine</p>
+                    <div class="product-footer">
+                        <span class="price">$16.75</span>
+                        <button class="btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Ointment (1 product) -->
+            <div class="product-card" data-category="ointment">
+                <div class="product-image">
+                    <img src="images/ointment.jpg" alt="LubriCare">
+                </div>
+                <div class="product-content">
+                    <h3>Azere</h3>
+                    <p>Azithromycin</p>
+                    <div class="product-footer">
+                        <span class="price">$11.25</span>
+                        <button class="btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Surgicals (1 product) -->
+            <div class="product-card" data-category="surgicals">
+                <div class="product-image">
+                    <img src="images/surgicals.jpg" alt="Viscoat">
+                    <div class="product-badge">PROFESSIONAL USE</div>
+                </div>
+                <div class="product-content">
+                    <h3>Reno-Wipes</h3>
+                    <p>Disposable ophthalmic viscosurgical device for cataract surgery.</p>
+                    <div class="product-footer">
+                        <span class="price">$45.00</span>
+                        <button class="btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023RenoLab. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/products.js"></script>
+</body>
+</html>
